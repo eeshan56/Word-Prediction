@@ -41,4 +41,4 @@ Installation on Linux:
 
 
   1) Install tensorflow. Follow the instructions on the website: https://www.tensorflow.org/install/
-  2) Install nltk and gensim as mentioned above
+  2) Install nltk and gensim as mentioned above (Install using pip)
