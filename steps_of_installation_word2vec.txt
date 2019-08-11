@@ -1,4 +1,8 @@
+
+
 Installation on Windows:
+
+
 	1) Install Python 3 (Latest version):
 		i) Download from https://www.python.org/downloads/
 		ii) Install using downloaded exe file. 
@@ -10,7 +14,7 @@ Installation on Windows:
 		ii) Enter necessary options during installation
 	4) Run command "conda create -n tensorflow_env tensorflow" in Anaconda Prompt
 	(This creates a virtual environment and installs tensorflow in it)
-
+	
 	5) To activate above environment: conda activate tensorflow_env
 	To execute Prediction program, always enter above command to activate tensorflow_env
 
@@ -31,3 +35,9 @@ Installation on Windows:
 				python train.py
 			iv) Enter command for running the Predict.py script:
 				python Predict.py
+        
+Installation on Linux:
+
+
+  1) Install tensorflow. Follow the instructions on the website: https://www.tensorflow.org/install/
+  2) Install nltk and gensim as mentioned above (Install using pip)
