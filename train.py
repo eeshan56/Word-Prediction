@@ -26,7 +26,7 @@ word2vec = Word2Vec(all_words, iter = 70, min_count = 2, compute_loss = True)
 vocabulary = word2vec.wv.vocab
 
 filename = "word2vec.bin"
-word2vec.save_word2vec_format(filename, binary = True)
+word2vec.wv.save_word2vec_format(filename, binary = True)
 
 sim_words = word2vec.wv.most_similar(positive = ['attorney', 'election'])
 print("Words similar to 'attorney for election': ", sim_words)
